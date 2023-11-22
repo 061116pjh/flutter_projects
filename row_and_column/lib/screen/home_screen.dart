@@ -44,33 +44,112 @@ class HomeScreen extends StatelessWidget {
               // Flexible - 빈 공간을 버림
               // flex - 비율
               Expanded(
-                child: Container(
-                  color: Colors.red,
-                  width: 50.0,
-                  height: 50.0,
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceAround,
+                  children: [
+                    Container(
+                      color: Colors.red,
+                      width: 50.0,
+                      height: 50.0,
+                    ),
+                    Container(
+                      color: Colors.orange,
+                      width: 50.0,
+                      height: 50.0,
+                    ),
+                    Container(
+                      color: Colors.yellow,
+                      width: 50.0,
+                      height: 50.0,
+                    ),
+                    Container(
+                      color: Colors.green,
+                      width: 50.0,
+                      height: 50.0,
+                    ),
+                  ],
                 ),
               ),
               Expanded(
-                child: Container(
-                  color: Colors.orange,
-                  width: 50.0,
-                  height: 50.0,
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Container(
+                      color: Colors.orange,
+                      width: 50.0,
+                      height: 50.0,
+                    ),
+                  ],
                 ),
               ),
               Expanded(
-                child: Container(
-                  color: Colors.yellow,
-                  width: 50.0,
-                  height: 50.0,
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.end,
+                  children: [
+                    Container(
+                      color: Colors.red,
+                      width: 50.0,
+                      height: 50.0,
+                    ),
+                    Container(
+                      color: Colors.orange,
+                      width: 50.0,
+                      height: 50.0,
+                    ),
+                    Container(
+                      color: Colors.yellow,
+                      width: 50.0,
+                      height: 50.0,
+                    ),
+                    Container(
+                      color: Colors.green,
+                      width: 50.0,
+                      height: 50.0,
+                    ),
+                  ],
                 ),
               ),
               Expanded(
-                child: Container(
-                  color: Colors.green,
-                  width: 50.0,
-                  height: 50.0,
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Container(
+                      color: Colors.green,
+                      width: 50.0,
+                      height: 50.0,
+                    ),
+                  ],
                 ),
               ),
+
+              // Expanded(
+              //   child: Container(
+              //     color: Colors.red,
+              //     width: 50.0,
+              //     height: 50.0,
+              //   ),
+              // ),
+              // Expanded(
+              //   child: Container(
+              //     color: Colors.orange,
+              //     width: 50.0,
+              //     height: 50.0,
+              //   ),
+              // ),
+              // Expanded(
+              //   child: Container(
+              //     color: Colors.yellow,
+              //     width: 50.0,
+              //     height: 50.0,
+              //   ),
+              // ),
+              // Expanded(
+              //   child: Container(
+              //     color: Colors.green,
+              //     width: 50.0,
+              //     height: 50.0,
+              //   ),
+              // ),
             ],
           ),
         ),
