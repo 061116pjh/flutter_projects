@@ -115,35 +115,6 @@ class HomeScreen extends StatelessWidget {
                   ),
                 ],
               ),
-
-              // Expanded(
-              //   child: Container(
-              //     color: Colors.red,
-              //     width: 50.0,
-              //     height: 50.0,
-              //   ),
-              // ),
-              // Expanded(
-              //   child: Container(
-              //     color: Colors.orange,
-              //     width: 50.0,
-              //     height: 50.0,
-              //   ),
-              // ),
-              // Expanded(
-              //   child: Container(
-              //     color: Colors.yellow,
-              //     width: 50.0,
-              //     height: 50.0,
-              //   ),
-              // ),
-              // Expanded(
-              //   child: Container(
-              //     color: Colors.green,
-              //     width: 50.0,
-              //     height: 50.0,
-              //   ),
-              // ),
             ],
           ),
         ),
