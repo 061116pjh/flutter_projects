@@ -85,3 +85,55 @@ TextButton에 대해서 좀 더 자세하게 보면 아래와 같다.
 
 ### 4. 위젯의 속성과 레이아웃
 위젯은 다양한 속성을 가지고 있어서 해당 위젯의 모양, 크기, 색상 등을 조절할 수 있다.
+<br>
+플러터에서는 위젯의 속성을 변경하여 레이아웃을 조정하거나 스타일을 적용할 수 있다.
+<br>
+다음은 플러터에서 위젯의 속성을 변경하여 레이아웃을 조정하고 스타일을 적용하는 예시코드이다.
+<br>
+이 예시에서는 Container 위젯을 사용하여 레이아웃을 구성하고, BoxDecoration을 사용하여 스타일을 적용한다.
+```
+  import 'package:flutter/material.dart';
+
+  void main(){
+    runApp(MyApp());
+  }
+
+  class MyApp extends StatelessWidget {
+    @override
+    Widget build(BuildContext context) {
+      return MaterialApp(
+        title: 'Widget Styling Example',
+        home: Scaffold(
+          appBar: AppBar(
+            title: Text('Widget Styling Example'),
+          ),
+          body: Center(
+            child: Container(
+              width: 200, // 너비 조절
+              height: 200, // 높이 조절
+              decoration: BoxDecoration(
+                color: Colors.blue, // 배경색상 변경
+                borderRadius: BorderRadius.circular(10), // 테두리 모서리 둥굴게 조절
+                boxShadow: [
+                  BoxShadow(
+                    color: Colors.gray,
+                    offset: Offset(0, 2), // 그림자 위치 조절
+                    blurRadius: 4, // 그림자 흐릿한 정도 조절
+                  ),
+                ],
+              ),
+              child: Text(
+                'Styled Container',
+                style: TextStyle(
+                  color: Colors.white, // 텍스트 색상 변경
+                  fontSize: 20, // 텍스트 크기 조절
+                  fontWeight: FontWeight.bold. // 텍스트 굵기 조절
+                ),
+              ),
+            ),
+          ),
+        ),
+      ),
+    }
+  }
+```
